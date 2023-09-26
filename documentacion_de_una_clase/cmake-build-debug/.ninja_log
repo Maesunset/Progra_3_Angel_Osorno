@@ -1,7 +1,4 @@
 # ninja log v5
-0	332	7172958649839439	CMakeFiles/documentacion_de_una_clase.dir/IntCell.cpp.obj	eb456d6f258a59f6
-4	663	7172958653143397	CMakeFiles/documentacion_de_una_clase.dir/main.cpp.obj	aaef2407286e3ef6
-663	947	7172958655859014	documentacion_de_una_clase.exe	23295e4a058c3d7d
 14	209	7173524644637452	CMakeFiles/documentacion_de_una_clase.dir/IntCell.cpp.obj	eb456d6f258a59f6
 3	389	7173524646439018	CMakeFiles/documentacion_de_una_clase.dir/main.cpp.obj	aaef2407286e3ef6
 389	603	7173524648122409	documentacion_de_una_clase.exe	23295e4a058c3d7d
