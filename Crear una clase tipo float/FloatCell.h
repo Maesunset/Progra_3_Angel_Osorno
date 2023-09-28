@@ -19,6 +19,11 @@ public:
 
     //esto solo funciona cuando trabaja con si mismo
     FloatCell &operator = (float rhs);
+    //operaciones logicas
+    FloatCell &operator + (const FloatCell &rhs);
+
+    //FloatCell &operator - (const FloatCell &rhs);
+
 
     // funciones geters, se usa para ver que valor esta asignado
     [[nodiscard]] float getValue() const;

@@ -3,7 +3,7 @@
 
 class IntCell {
 public:
-    // explicit constructor, sirve para r valores
+    // explicit constructor, solo sirve para r valores
     explicit IntCell(int newValue = 0);
     // constructores por copia y movimiento sirve para l valores
     IntCell(const IntCell &rhs);
@@ -15,7 +15,7 @@ public:
     IntCell &operator=(const IntCell &rhs);
     IntCell &operator=(IntCell &&rhs) noexcept;
 
-    // Overloaded assignment operator to accept primitive int
+    //operador de asignación para aceptar ints primitivos
     IntCell &operator=(int rhs);
 
     // asignar y mostrar el valor guardado

@@ -1,16 +1,16 @@
 #include "IntCell.h"
 
-// Default constructor
+// Default constructor, sirve para r valores
 IntCell::IntCell(int newValue) : storedValue(newValue) {}
 
-// Copy constructor
+// constructor por copia, sirve para l valores
 IntCell::IntCell(const IntCell &rhs) : storedValue(rhs.storedValue) {}
 
-// Move constructor
+// constructor por movimiento sirve para l valores
 IntCell::IntCell(IntCell &&rhs) noexcept : storedValue(rhs.storedValue) {
    // rhs.storedValue = 0;
 }
-// Copy assignment operator
+// operador de asignación por copia
 IntCell &IntCell::operator=(const IntCell &rhs) {
     if (this != &rhs) {
         storedValue = rhs.storedValue;
@@ -18,7 +18,7 @@ IntCell &IntCell::operator=(const IntCell &rhs) {
     return *this;
 }
 
-// Remove Move assignment operator
+// operador por asignación de movimiento
 IntCell &IntCell::operator=(IntCell &&rhs) noexcept {
     if (this != &rhs) {
         storedValue = rhs.storedValue;
@@ -27,13 +27,14 @@ IntCell &IntCell::operator=(IntCell &&rhs) noexcept {
     return *this;
 }
 
-// Overloaded assignment operator to accept only integer data
+// operador de asignación que se asegura que solo entren datos de numeros enteros
 IntCell &IntCell::operator=(int rhs) {
     storedValue = rhs;
     return *this;
 }
 
 // getters and setters
+// son para poner valor a la variable y mostrar el valor guardado
 // getter
 int IntCell::getValue(int i) const {
     return storedValue;

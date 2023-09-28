@@ -8,7 +8,7 @@ FloatCell::FloatCell(float newValue) : storeValue(newValue){}
 // copy constructor
 FloatCell::FloatCell(const FloatCell & rhs) : storeValue(rhs.storeValue){}
 // con
-// strutor por referencia
+// construtor por referencia
 FloatCell::FloatCell( FloatCell &&rhs) noexcept : storeValue(rhs.storeValue){
     rhs.storeValue = 0 ;
 }
@@ -20,7 +20,7 @@ FloatCell &FloatCell ::operator=(const FloatCell &rhs) {
     }
     return *this;
 }
-
+// aqui vas puñetas
 FloatCell &FloatCell::operator=(FloatCell &&rhs) noexcept {
     if(this != &rhs){
         storeValue = rhs.storeValue;
@@ -28,9 +28,13 @@ FloatCell &FloatCell::operator=(FloatCell &&rhs) noexcept {
     }
     return *this;
 }
-
 FloatCell &FloatCell::operator=(float rhs){
     storeValue = rhs;
+    return *this;
+}
+FloatCell &FloatCell::operator+(const FloatCell &rhs)
+{
+    storeValue =  storeValue + rhs.storeValue;
     return *this;
 }
 
