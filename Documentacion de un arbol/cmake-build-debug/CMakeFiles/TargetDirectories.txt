@@ -1,0 +1,3 @@
+C:/Users/jared/OneDrive/Escritorio/Escuela/Tercer Semestre/Progra III/Progra_3_Angel_Osornoo/Documentacion de un arbol/cmake-build-debug/CMakeFiles/Documentacion_de_un_arbol.dir
+C:/Users/jared/OneDrive/Escritorio/Escuela/Tercer Semestre/Progra III/Progra_3_Angel_Osornoo/Documentacion de un arbol/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jared/OneDrive/Escritorio/Escuela/Tercer Semestre/Progra III/Progra_3_Angel_Osornoo/Documentacion de un arbol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
